@@ -28,7 +28,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["HCMUS Spaceship", "US Spaceship", "Ú Spaceship", "Group 6"],
+      displayTextArray: ["Group 6", "HCMUS Spaceship", "US Spaceship", "Ú Spaceship"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 1000,
@@ -199,6 +199,9 @@ a {
 
 .outer {
   height: 100vh;
+  width: 100%;
+
+  overflow-x: hidden;
 }
 
 img {

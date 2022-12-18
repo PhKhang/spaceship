@@ -63,7 +63,7 @@
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -156,6 +156,10 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+
+    img {
+        pointer-events: none;
     }
 }
 </style>

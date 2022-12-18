@@ -11,18 +11,18 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 nav {
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 9;
 
     padding: 10px;
 
-    background-color: transparent;
-    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.518);
+    backdrop-filter: blur(50px);
 
     a {
         font-weight: bold;
