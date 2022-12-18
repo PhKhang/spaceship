@@ -108,6 +108,10 @@
         height: 300px;
         object-fit: cover;
         object-position: center 20%;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     .info {

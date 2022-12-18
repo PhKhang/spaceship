@@ -28,7 +28,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["HCMUS Spaceship", "US Spaceship", "Ú Spaceship"],
+      displayTextArray: ["HCMUS Spaceship", "US Spaceship", "Ú Spaceship", "Group 6"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 1000,
