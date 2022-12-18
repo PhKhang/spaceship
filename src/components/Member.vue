@@ -15,7 +15,7 @@
             <img src="@/assets/thienbao.jpg" alt="">
             <div class="info">
                 <h2>02</h2>
-                <h3>Thiên Bảo<br />Leader</h3>
+                <h3>Thiên Bảo<br />Phó Leader</h3>
                 <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: facebook.com/quanghuy</p>
             </div>
         </div>
@@ -24,7 +24,7 @@
             <img src="@/assets/phuckhang.png" style="object-position: center 40%" alt="">
             <div class="info">
                 <h2>03</h2>
-                <h3>Trần Nguyễn Phúc Khang<br />Leader</h3>
+                <h3>Trần Nguyễn Phúc Khang<br />Member</h3>
                 <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: facebook.com/quanghuy</p>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <img src="@/assets/chitai.png" alt="">
             <div class="info">
                 <h2>04</h2>
-                <h3>Chí Tài<br />Leader</h3>
+                <h3>Chí Tài<br />Member</h3>
                 <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: facebook.com/quanghuy</p>
             </div>
         </div>
@@ -42,7 +42,7 @@
             <img src="@/assets/ngocchau.jpg" alt="">
             <div class="info">
                 <h2>05</h2>
-                <h3>Ngọc Châu<br />Leader</h3>
+                <h3>Ngọc Châu<br />Member</h3>
                 <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: facebook.com/quanghuy</p>
             </div>
         </div>
@@ -51,7 +51,7 @@
             <img src="@/assets/minhhuy.jpeg" alt="">
             <div class="info">
                 <h2>06</h2>
-                <h3>Minh Huy<br />Leader</h3>
+                <h3>Minh Huy<br />Member</h3>
                 <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: facebook.com/quanghuy</p>
             </div>
         </div>
