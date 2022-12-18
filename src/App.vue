@@ -77,6 +77,8 @@ export default {
 * {
   box-sizing: border-box;
   margin: 0;
+
+  transition: all .4s ease;
 }
 
 body {

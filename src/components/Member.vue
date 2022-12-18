@@ -146,4 +146,12 @@
         }
     }
 }
+
+@media screen and (max-width: 850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 </style>
