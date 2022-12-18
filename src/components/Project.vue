@@ -2,6 +2,7 @@
     <div class="container">
         <img id="cau" src="@/assets/caugiay.png" alt="">
         <img id="えー等" src="@/assets/docえー等.png" alt="">
+        <img id="エー等" src="@/assets/エー等.jpg" alt="">
         <img id="bts" src="@/assets/sauquayphim.png" alt="">
         <img id="quayphim" src="@/assets/quayphim.png" alt="">
         <div class="heading">
@@ -56,6 +57,10 @@
         grid-area: b;
     }
 
+    #エー等 {
+        display: none;
+    }
+
     #bts {
         grid-area: c;
     }
@@ -82,12 +87,25 @@ img {
 @media screen and (max-width: 850px) {
     .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 20px;
+
+        h1 {
+            font-size: 60px;
+        }
     }
 
     img {
         pointer-events: none;
+    }
+
+    #えー等 {
+        display: none;
+    }
+
+    #エー等 {
+        display: unset;
+        grid-area: b;
     }
 }
 </style>

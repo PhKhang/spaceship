@@ -156,6 +156,10 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+
+        h1 {
+            font-size: 60px;
+        }
     }
 
     img {

@@ -14,7 +14,7 @@ export default {
 div {
     width: 100%;
     margin: auto;
-    padding: 50px 0px 70px 0px;
+    padding: 70px 0px 170px 0px;
 
     text-align: center;
     font-family: 'Cascadia Code';

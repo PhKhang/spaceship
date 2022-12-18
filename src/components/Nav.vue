@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <router-link to="/">Home</router-link> |
+        <router-link to="/"><img src="@/assets/dark.png" alt=""></router-link>
         <router-link to="/about">About</router-link>
     </nav>
 </template>
@@ -13,7 +13,13 @@ export default {
 
 <style lang="scss" scoped>
 nav {
+
     width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -21,15 +27,23 @@ nav {
 
     padding: 10px;
 
+    color: #637990;
     background-color: rgba(0, 0, 0, 0.518);
     backdrop-filter: blur(50px);
 
+    img {
+        height: 50px;
+        object-fit: cover;
+    }
+
     a {
         font-weight: bold;
-        color: #2c3e50;
+        margin: auto;
+        color: #637990;
 
         &.router-link-exact-active {
-            color: #42b983;
+            color: white;
+            text-decoration: underline;
         }
     }
 }

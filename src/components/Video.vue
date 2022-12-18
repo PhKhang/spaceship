@@ -31,8 +31,6 @@
 
 
     h1 {
-        grid-area: d;
-
         font-size: 85px;
         height: max-content;
     }
@@ -53,8 +51,13 @@ img {
 @media screen and (max-width: 850px) {
     .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 20px;
+
+        h1 {
+            font-size: 60px;
+        }
     }
+
 }
 </style>

@@ -156,7 +156,7 @@ export default {
   max-width: 1400px;
   padding-left: 10px;
 
-  position: absolute;
+  position: relative;
   top: 160px;
   left: 50%;
   transform: translate(-50%);
@@ -198,7 +198,7 @@ a {
 }
 
 .outer {
-  height: 100vh;
+  min-height: 600px;
   width: 100%;
 
   overflow-x: hidden;
@@ -219,13 +219,18 @@ img {
   height: 700px;
 }
 
-.blur {
-  position: absolute;
 
-  width: 100%;
-  height: 800px;
+@media screen and (max-width: 850px) {
+  .header {
+    height: 200px;
+  }
 
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0), black);
-  top: 0;
+  .header h1 {
+    font-size: 60px;
+  }
+
+  .blinking-cursor {
+    font-size: 60px;
+  }
 }
 </style>
