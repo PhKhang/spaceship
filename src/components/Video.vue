@@ -1,10 +1,10 @@
 <template>
     <div class="container">
-        <img src="https://khang.my.canva.site/2/videos/a88137ee1405f912a3332c468b7aedc4.gif" alt="">
+        <img src="@/assets/poster.png" alt="">
 
         <div class="ad">
             <h1>VÀ VIDEO DỰ ÁN CUỐI CÙNG...</h1>
-            <p>Stay tune, we promise it will be worth it</p>
+            <p><a href="https://youtu.be/Vx8GBkIcbA0">youtu.be/Vx8GBkIcbA0</a></p>
         </div>
     </div>
 </template>
@@ -35,6 +35,11 @@
         height: max-content;
     }
 
+    a {
+        text-decoration: underline;
+        color: inherit;
+    }
+
 }
 
 img {
@@ -44,6 +49,9 @@ img {
     max-width: 400px;
     height: 100%;
     object-fit: cover;
+
+    margin: 10px;
+
 
 }
 

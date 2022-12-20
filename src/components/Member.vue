@@ -1,13 +1,13 @@
 <template>
     <div class="container">
-        <h1>THÀNH VIÊN:</h1>
+        <h1>THÀNH VIÊN</h1>
 
         <div class="member">
             <img src="@/assets/quanghuy.jpg" style="object-position: center 40%" alt="">
             <div class="info">
                 <h2>01</h2>
                 <h3>Nguyễn Quang Huy<br />Leader</h3>
-                <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
+                <p>MSSV: 22127157<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
                         href="https://www.facebook.com/profile.php?id=100024148426316">facebook.com/profile.php?id=100024148426316</a>
                 </p>
             </div>
@@ -28,7 +28,7 @@
             <div class="info">
                 <h2>03</h2>
                 <h3>Trần Nguyễn Phúc Khang<br />Member</h3>
-                <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
+                <p>MSSV: 22127182<br />Mail: tnpkhang22@clc.fitus.edu.vn<br />FB: <a
                         href="https://www.facebook.com/PhKhng">facebook.com/PhKhng</a></p>
             </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="info">
                 <h2>05</h2>
                 <h3>Ngọc Châu<br />Member</h3>
-                <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
+                <p>MSSV: 22127044<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
                         href="https://www.facebook.com/d18.is.real">facebook.com/d18.is.real</a></p>
             </div>
         </div>
@@ -57,8 +57,8 @@
             <img src="@/assets/minhhuy.jpeg" alt="">
             <div class="info">
                 <h2>06</h2>
-                <h3>Minh Huy<br />Member</h3>
-                <p>MSSV: 22127182<br />Mail: nqhuy22@clc.fitus.edu.vn<br />FB: <a
+                <h3>Đỗ Minh Huy<br />Member</h3>
+                <p>MSSV: 22127147<br />Mail: dmhuy22@clc.fitus.edu.vn<br />FB: <a
                         href="https://www.facebook.com/profile.php?id=100045360666811">facebook.com/profile.php?id=100045360666811</a>
                 </p>
             </div>

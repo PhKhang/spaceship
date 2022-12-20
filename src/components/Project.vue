@@ -6,7 +6,7 @@
         <img id="bts" src="@/assets/sauquayphim.png" alt="">
         <img id="quayphim" src="@/assets/quayphim.png" alt="">
         <div class="heading">
-            <h1>CÁC DỰ ÁN:</h1>
+            <h1>CÁC DỰ ÁN</h1>
             <p>Từ cầu giấy, mindmap đến dựng phim và hơn thế nữa...</p>
         </div>
 

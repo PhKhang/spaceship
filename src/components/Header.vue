@@ -162,6 +162,7 @@ export default {
   transform: translate(-50%);
 }
 
+
 .header h1 {
   width: 100%;
   font-size: 120px;
