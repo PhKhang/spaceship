@@ -10,6 +10,10 @@
 
   <Break />
 
+  <Gallery />
+
+  <Break />
+
   <Video />
 
   <Break />
@@ -23,6 +27,7 @@ import Member from '@/components/Member.vue'
 import Project from '@/components/Project.vue'
 import Break from '@/components/Break.vue'
 import Video from '@/components/Video.vue'
+import Gallery from '@/components/Gallery.vue'
 
 export default {
   name: 'HomeView',
@@ -31,7 +36,8 @@ export default {
     Member,
     Project,
     Break,
-    Video
+    Video,
+    Gallery
   }
 }
 </script>

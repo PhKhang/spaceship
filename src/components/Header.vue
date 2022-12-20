@@ -7,7 +7,7 @@
     <div class="header">
 
       <h1>We are<br />
-        <span class="typed-text">{{ typeValue }}</span>
+        <span class="typed-text colorful">{{ typeValue }}</span>
         <span class="blinking-cursor">|</span>
         <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
       </h1>
@@ -149,6 +149,19 @@ export default {
   50% {
     color: red;
   }
+}
+
+.colorful {
+  font-weight: inherit;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00bbbe 0%, #FC00FF 100%);
+
+
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header {

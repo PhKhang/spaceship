@@ -51,6 +51,7 @@ img {
     object-fit: cover;
 
     margin: 10px;
+    border-radius: 15px;
 
 
 }
